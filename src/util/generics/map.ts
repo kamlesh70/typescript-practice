@@ -2,9 +2,9 @@
 * map function implementation with generics
 */
 
-type Test<T extends number|string> = {
-  [key in number] : string;
-}
+type Test<T extends number | string> = {
+  [key: number]: string;
+};
 
 type Obj = {
   [key in number | string]: string;

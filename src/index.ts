@@ -1,1 +1,1 @@
-import "./util/generics/map"
+import "./util/class/abstract";
